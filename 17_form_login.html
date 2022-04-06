@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        .texto{
+            text-align: center;
+        }
+
+        .formLogin{
+            width: 250px;
+            margin:  50px auto 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .formLogin label{
+            margin-top: 15px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .formLogin fieldset{
+            background: rgb(202, 194, 194);
+        }
+        .formLogin legend{
+            background: white;
+            display: inline-block;
+            padding: 5px;
+         
+        }
+
+
+        #user, #pass, .btn {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 15px;
+            font-size: 18px;
+            border: none;
+        }
+        #user, #pass {
+            background: rgb(163, 163, 209);
+        }
+
+        #user:focus, #pass:focus {
+            background: rgb(224, 224, 231);
+        }
+
+       
+        .btn{
+            margin-top: 10px;
+        }
+        #user{
+            margin-bottom: 15px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1 class="texto"> Exemplo de Formulario</h1>
+    <form action="#" method="POST" class="formLogin" > 
+      <fieldset>
+        <legend>Login</legend>
+        <label for="user" >Digite o seu Usuário</label>
+        <input type="text" id="user" name="user" autofocus> 
+    
+        <label for="user" >Digite a Senha</label>
+        <input type="password" id="pass" name="pass">
+        <input type="submit" value="logar" class="btn">
+
+
+      </fieldset>
+    </form>
+
+    
+</body>
+</html>
