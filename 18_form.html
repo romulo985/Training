@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario entrada de dados1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <h1> Exemplo de formulário de entrada de Dados</h1>
+    <form action="#" method="get" class="formlogin2">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>E-mail</label>
+            <input type="email">
+            <br>
+            <br>
+            <label>número de filhos</label>
+            <input type="number" min="0" max="10">
+            <br>
+            <br>
+            <label>Data Nascimento</label>
+            <input type="date" min="2020-01-01" max="2030-12-31">
+            <br>
+           
+            <p>Sexo:</p>
+            <label>
+            <input type="radio" value="M" name="sexo">
+            Masculino</label><!--  opção disponivel clicando também na descrição -->
+
+            <label>
+            <input type="radio" value="F" name="sexo">
+            Feminino</label><!--  opção disponivel clicando também na descrição -->
+
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+    
+
+
+</body>
+</html>
